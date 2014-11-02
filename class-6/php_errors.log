@@ -1,0 +1,278 @@
+[27-Mar-2014 00:02:29] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user ' . USER . '@'ec2-54-226-180-1.compute-1.amazonaws.com' (using password: YES)' in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php:8
+Stack trace:
+#0 /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php(8): PDO->__construct('mysql:host=eher...', '' . USER . '', '' . PASSWORD . ...')
+#1 /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php(3): require_once('/var/lib/sticks...')
+#2 {main}
+  thrown in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php on line 8
+[27-Mar-2014 00:02:56] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user ' . USER . '@'ec2-54-226-180-1.compute-1.amazonaws.com' (using password: YES)' in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php:8
+Stack trace:
+#0 /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php(8): PDO->__construct('mysql:host=eher...', '' . USER . '', '' . PASSWORD . ...')
+#1 /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php(3): require_once('/var/lib/sticks...')
+#2 {main}
+  thrown in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php on line 8
+[27-Mar-2014 00:04:05] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php on line 8
+[27-Mar-2014 00:04:05] PHP Stack trace:
+[27-Mar-2014 00:04:05] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:05:53] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user '" . USER . "'@'ec2-54-226-180-1.compute-1.amazonaws.com' (using password: YES)' in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php:8
+Stack trace:
+#0 /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php(8): PDO->__construct('mysql:host=eher...', '" . USER . "', '" . PASSWORD . ...')
+#1 /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php(3): require_once('/var/lib/sticks...')
+#2 {main}
+  thrown in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php on line 8
+[27-Mar-2014 00:15:21] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1' in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:5
+Stack trace:
+#0 /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php(5): PDO->query('SELECT * FROM t...')
+#1 {main}
+  thrown in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 5
+[27-Mar-2014 00:15:48] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:15:48] PHP Stack trace:
+[27-Mar-2014 00:15:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:48] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:15:48] PHP Stack trace:
+[27-Mar-2014 00:15:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:48] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:15:48] PHP Stack trace:
+[27-Mar-2014 00:15:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:48] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:15:48] PHP Stack trace:
+[27-Mar-2014 00:15:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:48] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:15:48] PHP Stack trace:
+[27-Mar-2014 00:15:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:48] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:15:48] PHP Stack trace:
+[27-Mar-2014 00:15:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:48] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:15:48] PHP Stack trace:
+[27-Mar-2014 00:15:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:48] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:15:48] PHP Stack trace:
+[27-Mar-2014 00:15:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:15:49] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:15:49] PHP Stack trace:
+[27-Mar-2014 00:15:49] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 9
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 2 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 10
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:16:15] PHP Notice:  Undefined offset: 3 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php on line 11
+[27-Mar-2014 00:16:15] PHP Stack trace:
+[27-Mar-2014 00:16:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/list.php:0
+[27-Mar-2014 00:45:48] PHP Notice:  Undefined variable: i in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 15
+[27-Mar-2014 00:45:48] PHP Stack trace:
+[27-Mar-2014 00:45:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:45:48] PHP Notice:  Undefined index:  in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 15
+[27-Mar-2014 00:45:48] PHP Stack trace:
+[27-Mar-2014 00:45:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:45:48] PHP Notice:  Undefined variable: i in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 16
+[27-Mar-2014 00:45:48] PHP Stack trace:
+[27-Mar-2014 00:45:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:45:48] PHP Notice:  Undefined variable: results in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 16
+[27-Mar-2014 00:45:48] PHP Stack trace:
+[27-Mar-2014 00:45:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:45:48] PHP Notice:  Undefined variable: i in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 17
+[27-Mar-2014 00:45:48] PHP Stack trace:
+[27-Mar-2014 00:45:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:45:48] PHP Notice:  Undefined variable: results in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 17
+[27-Mar-2014 00:45:48] PHP Stack trace:
+[27-Mar-2014 00:45:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:47:29] PHP Notice:  Undefined variable: results in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 16
+[27-Mar-2014 00:47:29] PHP Stack trace:
+[27-Mar-2014 00:47:29] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:47:29] PHP Notice:  Undefined variable: results in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 17
+[27-Mar-2014 00:47:29] PHP Stack trace:
+[27-Mar-2014 00:47:29] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:48:42] PHP Notice:  Undefined variable: results in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 16
+[27-Mar-2014 00:48:42] PHP Stack trace:
+[27-Mar-2014 00:48:42] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:48:42] PHP Notice:  Undefined variable: results in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 17
+[27-Mar-2014 00:48:42] PHP Stack trace:
+[27-Mar-2014 00:48:42] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 00:49:32] PHP Notice:  Undefined offset: 1 in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php on line 17
+[27-Mar-2014 00:49:32] PHP Stack trace:
+[27-Mar-2014 00:49:32] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/select.php:0
+[27-Mar-2014 20:33:46] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/insert.php on line 13
+[27-Mar-2014 20:33:46] PHP Stack trace:
+[27-Mar-2014 20:33:46] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/insert.php:0
+[27-Mar-2014 20:34:13] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/insert.php on line 12
+[27-Mar-2014 20:34:13] PHP Stack trace:
+[27-Mar-2014 20:34:13] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/insert.php:0
+[27-Mar-2014 20:34:13] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/insert.php on line 12
+[27-Mar-2014 20:34:13] PHP Stack trace:
+[27-Mar-2014 20:34:13] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/insert.php:0
+[27-Mar-2014 22:52:25] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php:8
+Stack trace:
+#0 /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php(8): PDO->__construct('mysqli:host=ehe...', 'instruct_remote', 'pass098!')
+#1 {main}
+  thrown in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/db.php on line 8
+[27-Mar-2014 23:02:15] PHP Warning:  require_once(functions.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php on line 4
+[27-Mar-2014 23:02:15] PHP Stack trace:
+[27-Mar-2014 23:02:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php:0
+[27-Mar-2014 23:02:15] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'functions.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php on line 4
+[27-Mar-2014 23:02:15] PHP Stack trace:
+[27-Mar-2014 23:02:15] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php:0
+[27-Mar-2014 23:02:48] PHP Fatal error:  Call to undefined function listAllPosts() in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php on line 6
+[27-Mar-2014 23:02:48] PHP Stack trace:
+[27-Mar-2014 23:02:48] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php:0
+[27-Mar-2014 23:03:03] PHP Notice:  Undefined variable: stmt in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php on line 6
+[27-Mar-2014 23:03:03] PHP Stack trace:
+[27-Mar-2014 23:03:03] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php:0
+[27-Mar-2014 23:03:03] PHP Fatal error:  Call to a member function rowCount() on a non-object in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php on line 6
+[27-Mar-2014 23:03:03] PHP Stack trace:
+[27-Mar-2014 23:03:03] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/listPosts.php:0
+[27-Mar-2014 23:26:39] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 12
+[27-Mar-2014 23:26:39] PHP Stack trace:
+[27-Mar-2014 23:26:39] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:27:06] PHP Notice:  Undefined index: ID in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 7
+[27-Mar-2014 23:27:06] PHP Stack trace:
+[27-Mar-2014 23:27:06] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:30:56] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 12
+[27-Mar-2014 23:30:56] PHP Stack trace:
+[27-Mar-2014 23:30:56] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:30:56] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 18
+[27-Mar-2014 23:30:56] PHP Stack trace:
+[27-Mar-2014 23:30:56] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:30:56] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 19
+[27-Mar-2014 23:30:56] PHP Stack trace:
+[27-Mar-2014 23:30:56] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:31:04] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 12
+[27-Mar-2014 23:31:04] PHP Stack trace:
+[27-Mar-2014 23:31:04] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:31:04] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 18
+[27-Mar-2014 23:31:04] PHP Stack trace:
+[27-Mar-2014 23:31:04] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:31:04] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 19
+[27-Mar-2014 23:31:04] PHP Stack trace:
+[27-Mar-2014 23:31:04] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:31:44] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 12
+[27-Mar-2014 23:31:44] PHP Stack trace:
+[27-Mar-2014 23:31:44] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:31:44] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 18
+[27-Mar-2014 23:31:44] PHP Stack trace:
+[27-Mar-2014 23:31:44] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[27-Mar-2014 23:31:44] PHP Notice:  Undefined variable: myPost in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php on line 19
+[27-Mar-2014 23:31:44] PHP Stack trace:
+[27-Mar-2014 23:31:44] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[28-Mar-2014 00:12:23] PHP Notice:  Undefined variable: row in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/functions.php on line 17
+[28-Mar-2014 00:12:23] PHP Stack trace:
+[28-Mar-2014 00:12:23] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[28-Mar-2014 00:12:23] PHP   2. getPost() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:7
+[28-Mar-2014 00:12:47] PHP Notice:  Undefined variable: row in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/functions.php on line 17
+[28-Mar-2014 00:12:47] PHP Stack trace:
+[28-Mar-2014 00:12:47] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[28-Mar-2014 00:12:47] PHP   2. getPost() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:7
+[28-Mar-2014 00:13:27] PHP Notice:  Undefined variable: row in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/functions.php on line 18
+[28-Mar-2014 00:13:27] PHP Stack trace:
+[28-Mar-2014 00:13:27] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:0
+[28-Mar-2014 00:13:27] PHP   2. getPost() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/editPost.php:7
+[28-Mar-2014 00:14:40] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php on line 13
+[28-Mar-2014 00:15:30] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php on line 18
+[28-Mar-2014 00:16:10] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ',' or ';' in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php on line 17
+[28-Mar-2014 00:19:31] PHP Notice:  Undefined index: ID in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php on line 9
+[28-Mar-2014 00:19:31] PHP Stack trace:
+[28-Mar-2014 00:19:31] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php:0
+[28-Mar-2014 00:20:06] PHP Notice:  Undefined index: ID in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php on line 9
+[28-Mar-2014 00:20:06] PHP Stack trace:
+[28-Mar-2014 00:20:06] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php:0
+[28-Mar-2014 00:20:56] PHP Notice:  Undefined index: ID in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php on line 9
+[28-Mar-2014 00:20:56] PHP Stack trace:
+[28-Mar-2014 00:20:56] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php:0
+[28-Mar-2014 00:21:35] PHP Notice:  Undefined index: ID in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php on line 9
+[28-Mar-2014 00:21:35] PHP Stack trace:
+[28-Mar-2014 00:21:35] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php:0
+[28-Mar-2014 00:23:11] PHP Notice:  Undefined index: id in /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/functions.php on line 23
+[28-Mar-2014 00:23:11] PHP Stack trace:
+[28-Mar-2014 00:23:11] PHP   1. {main}() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php:0
+[28-Mar-2014 00:23:11] PHP   2. updatePost() /var/lib/stickshift/52f8af2f5973caacbf0002a1/app-root/data/766329/class-6/pdo/updatePost.php:12
