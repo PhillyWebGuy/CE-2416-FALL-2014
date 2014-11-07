@@ -5,7 +5,7 @@ require_once "db.php";
 $id = 2;
 $stmt = $db->query("SELECT * FROM posts WHERE ID=?");
 $stmt->execute(array($id));
-$row = $stmt->fetchAll(PDO::FETCH_ASSOC);
+//$row = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 $row_count = $stmt->rowCount();
 echo $row_count.' rows selected<P>';
